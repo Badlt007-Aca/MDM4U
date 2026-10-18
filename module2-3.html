@@ -40,18 +40,129 @@ $(function(){
 </div>
 
 <header class="w3-container w3-theme" style="padding:64px 32px">
-  <h1 class="w3-xxxlarge">2.1 - distribution des données</h1>
+  <h1 class="w3-xxxlarge">2.3 - Les Méthodes de Mesures de Dispersion</h1>
 </header>
 
 <div class="w3-container" style="padding:32px">
 
 <!-- Tu peux complètement modifier le contenu ci-dessous -->
 
-<iframe src="https://www.desmos.com/calculator/vw28z3ie9z?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-<iframe src="https://www.desmos.com/calculator/xh6lbyy0f3?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-<iframe src="https://www.desmos.com/calculator/er37srphcq?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-<iframe src="https://www.desmos.com/calculator/zn2z3smy8l?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<h2>À quoi servent les mesures de dispersion?</h2>
+<p>Mesurer la dispersion d’un ensemble de données permet de comprendre à quel point celui-ci est cohérent et précis. Cela aide également à le distinguer d’autres ensembles de données ; par exemple, deux ensembles de données peuvent présenter la même moyenne tout en ayant une dispersion totalement différente.</p>
+<h2>L'étendue</h2>
+<p>L'étendue est la mesure la plus simple de la dispersion des données dans un ensemble donné. Elle se calcule en soustrayant la plus petite valeur de la plus grande valeur.</p>
+<h2>Les Quartiles</h2>
+<p>Les quartiles sont des valeurs qui divisent un ensemble de données en trois catégories distinctes, chacune représentant 25 % de cet ensemble. Le premier quartile (Q1, ou quartile inférieur) correspond au 25e percentile et 25 % des données se situent en dessous de cette valeur. Le deuxième quartile (Q2, ou médiane) correspond au 50e percentile et 50 % des données se situent en dessous de cette valeur. Le troisième quartile (Q3, ou quartile supérieur) correspond au 75e percentile et 75 % des données se situent en dessous de cette valeur.</p>
+<h2>L'écart interquartile</h2>
+<p>L’écart interquartile correspond exactement à ce que son nom indique : l’étendue entre les quartiles. Pour le déterminer, il faut combiner les méthodes permettant de calculer l’étendue et les quartiles. Ainsi, pour obtenir l’écart interquartile, il suffit de soustraire le quartile inférieur (Q1) du quartile supérieur (Q3).</p>
+<h2>L'écart type</h2>
+<p>L’écart-type est une mesure statistique qui indique à quel point les nombres d’un ensemble de données sont dispersés par rapport à leur moyenne. Il est représenté par la lettre grecque minuscule sigma (σ) pour une population complète, ou par la lettre « s » pour un échantillon.</p>
+<h2>Comment Calculer l'écart type?</h2>
+<p>Pour calculer l'écart-type d'un ensemble de données, il convient de suivre quelques étapes. Étape 1) Calculez la moyenne de votre ensemble de données. C'est simple : additionnez toutes vos valeurs, puis divisez le résultat par le nombre total de valeurs. Étape 2) Déterminez les écarts. Pour ce faire, soustrayez la moyenne de chacune de vos valeurs. Étape 3) Élevez ensuite chaque écart au carré. Étape 4) Additionnez tous ces écarts au carré. Étape 5) Selon qu'il s'agit d'une population ou d'un échantillon, la formule à utiliser diffère légèrement. S'il s'agit d'une population, divisez la somme obtenue par le nombre total de valeurs. S'il s'agit d'un échantillon, divisez cette somme par le nombre de valeurs moins un. Étape 6) Calculez la racine carrée du quotient obtenu: vous avez alors votre écart-type. Voilà, c'est tout!</p> 
+<h1>Leçon et exercices</h1>  
+<p></p>
 
+<p><a href="https://docs.google.com/document/d/1IJJ3_rcGlCq2GAdfJfdcZqFwr3Fz41vb/edit?usp=sharing&ouid=117752596853795286492&rtpof=true&sd=true" target="_blank">Exercices 2.3 - Mesures de dispersion</a>
+<p></p>
+
+<p><a href="https://docs.google.com/presentation/d/1tXPZIZGQORBiqncTZE7DXeNAXTLYVB5rUZZRTPkWiaU/edit?usp=sharing" target="_blank">Leçon 2.3 - Mesures de dispersion</a> 
+    
+<section class="references">
+  <h1>Références</h1>
+  <div class="reference-list">
+    <p class="reference">
+    
+    </p>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Works Cited</title>
+
+    <style>
+        .works-cited {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .citation {
+            margin-bottom: 1em;
+            padding-left: 0.5in;
+            text-indent: -0.5in;
+        }
+
+        a {
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="works-cited">
+
+    <div class="citation">
+        Government of Canada, Statistics Canada.
+        “4.5 Measures of Dispersion.”
+        <i>Www150.Statcan.Gc.Ca</i>, 2 sept. 2021,
+        <a href="https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch12/5214876-eng.htm">
+            www150.statcan.gc.ca/n1/edu/power-pouvoir/ch12/5214876-eng.htm
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+    <div class="citation">
+        Khan Academy. “Interquartile Range Review (Article).”
+        <i>Khan Academy</i>,
+        <a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th/a/interquartile-range-review">
+            www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/cc-6th/a/interquartile-range-review
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+    <div class="citation">
+        ---. “Population and Sample Standard Deviation Review.”
+        <i>Khan Academy</i>, 2018,
+        <a href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review">
+            www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+    <div class="citation">
+        Math Is Fun. “The Range (Statistics).”
+        <i>Mathsisfun.Com</i>, 2017,
+        <a href="https://www.mathsisfun.com/data/range.html">
+            www.mathsisfun.com/data/range.html
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+    <div class="citation">
+        mathisfun. “Standard Deviation and Variance.”
+        <i>Mathsisfun.Com</i>, 2017,
+        <a href="https://www.mathsisfun.com/data/standard-deviation.html">
+            www.mathsisfun.com/data/standard-deviation.html
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+    <div class="citation">
+        “Quartiles.”
+        <i>Mathsisfun.Com</i>, 2016,
+        <a href="https://www.mathsisfun.com/data/quartiles.html">
+            www.mathsisfun.com/data/quartiles.html
+        </a>.
+        Consulté le 18 oct. 2026.
+    </div>
+
+</div>
+
+</body>
+</html>
 
 <!-- Tu peux complètement modifier le contenu par dessus cette ligne -->
 
